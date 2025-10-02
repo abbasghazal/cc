@@ -1748,10 +1748,10 @@ async def OwnerStart(event):
         await shahm1.send_message('@DamKombot', '/start')
         await asyncio.sleep(4)
         msg0 = await shahm1.get_messages('@DamKombot', limit=1)
-        await msg0[0].click(1)
+        await msg0[0].click(2)
         await asyncio.sleep(4)
         msg1 = await shahm1.get_messages('@DamKombot', limit=1)
-        await msg1[0].click(0)
+        await msg1[0].click(1)
 
 
         chs = 1
